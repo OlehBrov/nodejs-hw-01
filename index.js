@@ -36,10 +36,5 @@ function invokeAction({ action, id, name, email, phone }) {
       console.warn("\x1B[31m Unknown action type!");
   }
 }
-console.log(argv)
+
 invokeAction(argv);
-// invokeAction("list")
-// contacts.listContacts()
-// contacts.getContactById(id)
-// contacts.removeContact(id)
-// contacts.addContact('mango22', 'mango22@mail.co', '999-22-11')
